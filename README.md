@@ -1,3 +1,6 @@
+[![CI](https://github.com/gamai-io/dag/actions/workflows/ci.yml/badge.svg)](https://github.com/gamai-io/dag/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 # dag
 
 Deterministic **risk trunk** + DAG fan-out for agent tasks: split a goal into parallel branches, execute them against any OpenAI-compatible endpoint, verify each branch, then merge with evidence.
