@@ -13,7 +13,7 @@ class TestReflex(unittest.TestCase):
         self.assertLess(reflex.risk_score("napisi python funkciju"), 0.3)
 
     def test_domain(self):
-        self.assertEqual(reflex.detect_domain("select * from table"), "sql")
+        self.assertEqual(reflex.detect_domain("napisi upit za bazu"), "sql")
         self.assertEqual(reflex.detect_domain("napisi python funkciju"), "code")
 
     def test_translit(self):
